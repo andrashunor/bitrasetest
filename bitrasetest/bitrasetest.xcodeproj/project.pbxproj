@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16C6944624F1BC6A1DD49AFA /* Pods_bitrasetest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8AD1CB4FD4DB71C970A792 /* Pods_bitrasetest.framework */; };
 		F4887B3E2068C69200E64F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4887B3D2068C69200E64F4D /* AppDelegate.swift */; };
 		F4887B402068C69200E64F4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4887B3F2068C69200E64F4D /* ViewController.swift */; };
 		F4887B432068C69200E64F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4887B412068C69200E64F4D /* Main.storyboard */; };
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		050108DEF6D05D352BC3F8BC /* Pods-bitrasetest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitrasetest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bitrasetest/Pods-bitrasetest.debug.xcconfig"; sourceTree = "<group>"; };
+		CE8AD1CB4FD4DB71C970A792 /* Pods_bitrasetest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bitrasetest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2330FA96CD4C23F43CB0674 /* Pods-bitrasetest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitrasetest.release.xcconfig"; path = "Pods/Target Support Files/Pods-bitrasetest/Pods-bitrasetest.release.xcconfig"; sourceTree = "<group>"; };
 		F4887B3A2068C69200E64F4D /* bitrasetest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitrasetest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4887B3D2068C69200E64F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4887B3F2068C69200E64F4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16C6944624F1BC6A1DD49AFA /* Pods_bitrasetest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2831E803C6E60305D99AACEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8AD1CB4FD4DB71C970A792 /* Pods_bitrasetest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49757571CD20C7F2A9158CA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				050108DEF6D05D352BC3F8BC /* Pods-bitrasetest.debug.xcconfig */,
+				F2330FA96CD4C23F43CB0674 /* Pods-bitrasetest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F4887B312068C69200E64F4D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				F4887B512068C69300E64F4D /* bitrasetestTests */,
 				F4887B5C2068C69300E64F4D /* bitrasetestUITests */,
 				F4887B3B2068C69200E64F4D /* Products */,
+				49757571CD20C7F2A9158CA1 /* Pods */,
+				2831E803C6E60305D99AACEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4887B622068C69300E64F4D /* Build configuration list for PBXNativeTarget "bitrasetest" */;
 			buildPhases = (
+				C529A3161AC09FDDA729952C /* [CP] Check Pods Manifest.lock */,
 				F4887B362068C69200E64F4D /* Sources */,
 				F4887B372068C69200E64F4D /* Frameworks */,
 				F4887B382068C69200E64F4D /* Resources */,
+				9A4A9C2C0CDE49CFCAF63CEE /* [CP] Embed Pods Frameworks */,
+				6A84DDA60ABB951B54469D9B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A84DDA60ABB951B54469D9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bitrasetest/Pods-bitrasetest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A4A9C2C0CDE49CFCAF63CEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bitrasetest/Pods-bitrasetest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C529A3161AC09FDDA729952C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F4887B362068C69200E64F4D /* Sources */ = {
@@ -424,6 +499,7 @@
 		};
 		F4887B632068C69300E64F4D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 050108DEF6D05D352BC3F8BC /* Pods-bitrasetest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +514,7 @@
 		};
 		F4887B642068C69300E64F4D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2330FA96CD4C23F43CB0674 /* Pods-bitrasetest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

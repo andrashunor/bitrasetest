@@ -1,0 +1,46 @@
+bitrasetest/Gemfile.lock
+bitrasetest/Podfile.lock
+bitrasetest/Pods/Manifest.lock
+bitrasetest/Pods/Crashlytics/README.md
+bitrasetest/Pods/Crashlytics/submit
+bitrasetest/Pods/Crashlytics/Crashlytics.framework/README
+bitrasetest/Pods/Crashlytics/Crashlytics.framework/submit
+bitrasetest/Pods/Crashlytics/iOS/Crashlytics.framework/Crashlytics
+bitrasetest/Pods/Crashlytics/iOS/Crashlytics.framework/Info.plist
+bitrasetest/Pods/Crashlytics/iOS/Crashlytics.framework/run
+bitrasetest/Pods/Crashlytics/iOS/Crashlytics.framework/submit
+bitrasetest/Pods/Crashlytics/iOS/Crashlytics.framework/uploadDSYM
+bitrasetest/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/ANSCompatibility.h
+bitrasetest/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/Answers.h
+bitrasetest/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSAttributes.h
+bitrasetest/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSLogging.h
+bitrasetest/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSReport.h
+bitrasetest/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/CLSStackFrame.h
+bitrasetest/Pods/Crashlytics/iOS/Crashlytics.framework/Headers/Crashlytics.h
+bitrasetest/Pods/Crashlytics/iOS/Crashlytics.framework/Modules/module.modulemap
+bitrasetest/Pods/Fabric/README.md
+bitrasetest/Pods/Fabric/run
+bitrasetest/Pods/Fabric/upload-symbols
+bitrasetest/Pods/Fabric/uploadDSYM
+bitrasetest/Pods/Fabric/Fabric.framework/README
+bitrasetest/Pods/Fabric/Fabric.framework/run
+bitrasetest/Pods/Fabric/iOS/Fabric.framework/Fabric
+bitrasetest/Pods/Fabric/iOS/Fabric.framework/Info.plist
+bitrasetest/Pods/Fabric/iOS/Fabric.framework/run
+bitrasetest/Pods/Fabric/iOS/Fabric.framework/uploadDSYM
+bitrasetest/Pods/Fabric/iOS/Fabric.framework/Headers/FABAttributes.h
+bitrasetest/Pods/Fabric/iOS/Fabric.framework/Headers/Fabric.h
+bitrasetest/Pods/Fabric/iOS/Fabric.framework/Modules/module.modulemap
+bitrasetest/Pods/Pods.xcodeproj/project.pbxproj
+bitrasetest/Pods/Pods.xcodeproj/xcuserdata/ahunor.xcuserdatad/xcschemes/Pods-bitrasetest.xcscheme
+bitrasetest/Pods/Pods.xcodeproj/xcuserdata/ahunor.xcuserdatad/xcschemes/xcschememanagement.plist
+bitrasetest/Pods/Target Support Files/Pods-bitrasetest/Info.plist
+bitrasetest/Pods/Target Support Files/Pods-bitrasetest/Pods-bitrasetest-acknowledgements.markdown
+bitrasetest/Pods/Target Support Files/Pods-bitrasetest/Pods-bitrasetest-acknowledgements.plist
+bitrasetest/Pods/Target Support Files/Pods-bitrasetest/Pods-bitrasetest-dummy.m
+bitrasetest/Pods/Target Support Files/Pods-bitrasetest/Pods-bitrasetest-frameworks.sh
+bitrasetest/Pods/Target Support Files/Pods-bitrasetest/Pods-bitrasetest-resources.sh
+bitrasetest/Pods/Target Support Files/Pods-bitrasetest/Pods-bitrasetest-umbrella.h
+bitrasetest/Pods/Target Support Files/Pods-bitrasetest/Pods-bitrasetest.debug.xcconfig
+bitrasetest/Pods/Target Support Files/Pods-bitrasetest/Pods-bitrasetest.modulemap
+bitrasetest/Pods/Target Support Files/Pods-bitrasetest/Pods-bitrasetest.release.xcconfig
