@@ -6,8 +6,8 @@ build=${branch_name##*.} # String after last "." character
 
 # Set values on Info.plist at path
 plist_path="./bitrasetest/Info.plist"
-/usr/libexec/PlistBuddy -c "Set :CFBundleVersion $build" $plist_path
-/usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $version" $plist_path
+/usr/libexec/PlistBuddy -c "Set :CFBundleVersion $build" "$plist_path"
+/usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString $version" "$plist_path"
 
 # Commit changes
 commit_message="Increased build number"
@@ -18,4 +18,5 @@ then
 fi
 
 git add "bitrasetest/Info.plist"
-git commit -m $commit_message
+git commit -m "$commit_message"
+git push origin "$branch_name"
